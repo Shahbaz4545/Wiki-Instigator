@@ -1,0 +1,311 @@
+@media only screen and (max-width: 980px) and (min-width: 320px) {
+    /* Nav Mobile Screen */
+    #menu-list{
+        display: none;
+    }
+    .mobile-screen{
+        position: relative;
+        display: block;
+    }
+    .mobile-screen #list-btn{
+        display: block;
+        position: absolute;
+        top: -76px;
+        right: 0;
+        font-size: 28px;
+    }
+    a#cross {
+        position: absolute;
+        top: -76px;
+        right: 20px;
+        font-size: 28px;
+        z-index: 12;
+        display: none;
+    }
+    nav.mobile-view {
+        background: #dbfdff;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding-top: 25px;
+        z-index: 11;
+        overflow-y: scroll;
+        display: none;
+    }
+    
+    /* End Nav Mobile Screen */
+    section{
+        overflow: hidden;
+    }
+    footer .container::after {
+        display: none;
+    }
+    .logo img {
+        max-width: 37% !important;
+        display: inline-block;
+    }
+    
+    header ul.menu {
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    header ul.menu li {
+        padding: 10px 25px;
+        display: block;
+    }
+    
+    header ul.menu br {
+        display: none;
+    }
+    
+    ul li.num, li.started {
+        display: none;
+    }
+    
+    section.home-banner {
+        padding: 0;
+    }
+    
+    section.home-banner img {
+        max-width: 100%;
+    }
+    
+    h2::before {
+        display: none;
+    }
+    
+    .home-banner .banner-side {padding: 0;padding-bottom: 30px;}
+    
+    h2 {
+        font-size: 27px !important;
+        margin: 0;
+    }
+    
+    h2 br {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 27px !important;
+        line-height: 34px !important;
+    }
+    
+    h1 br {
+        display: none !important;
+    }
+    
+    p {
+        padding: 5px 0 5px 0  !important;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    
+    .home-banner::before {
+        display: none;
+    }
+    
+    a.btn.black {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    
+    a.btn.blue {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    
+    .home-banner .banner-side::before {
+        height: 436px;
+        top: -50px;
+        left: -20px;
+    }
+    
+    .logos-bar img {
+        max-width: 100%;
+        padding: 10px 0px;
+    }
+    
+    .publish, .pub {
+        padding: 0;
+    }
+    
+    .publish {
+        padding: 10px 0 0 20px;
+    }
+    
+    .publish h1 {
+        line-height: 32px;
+    }
+    
+    .chat a.btn {font-size: 12px;}
+    
+    .chat img {
+        max-width: 100%;
+        padding: 4px 4px 3px 6px;
+    }
+    
+    .chat {
+        margin: 0 !important;
+        padding: 0px 10px;
+        margin-left: 32px !important;
+    }
+    
+    .pub {
+    }
+    
+    .estab img {
+        max-width: 100%;
+    }
+    
+    .estab {
+        padding: 20px 0 22px 0;
+    }
+    
+    .estab::before {
+        width: 57px;
+        height: 80px;
+        left: 26px;
+        bottom: -25px;
+    }
+    
+    section {
+    }
+    
+    .wiki-service img {
+        max-width: 18% !important;
+        margin-left: 117px;
+    }
+    
+    .wiki-service h1::before {
+        left: 104px;
+    }
+    
+    a.btn.lightblue {
+        font-size: 14px;
+        margin: 0 0 20px 50px;
+    }
+    
+    section.wiki-service::after {
+        display: none;
+    }
+    
+    .key .wiki-cirle img {
+        max-width: 90%;
+    }
+    
+    .wiki-cirle::before {
+        width: 533px;
+        height: 122px;
+        bottom: -30px;
+    }
+    
+    .wiki-cirle::after {
+        width: 405px;
+        height: 340px;
+    }
+    
+    .key .key-fact ul li h3 {
+        font-size: 14px;
+    }
+    
+    .key .key-fact ul li {
+        padding: 10px 0px;
+    }
+    
+    .left-80 {margin-left: 60px;}
+    
+    .key .key-fact ul {padding: 10px 17px;}
+    
+    .premium {
+        padding: 0;
+    }
+    
+    .premium h1 {
+        line-height: 32px;
+    }
+    
+    section.genius-presence {
+        padding: 32px 0px;
+    }
+    
+    .genius-presence h1 br {
+        display: none;
+    }
+    
+    .genius-presence h1 {
+        font-size: 19px !important;
+    }
+    
+    .genius-presence {
+    }
+    
+    .genius-presence .chat {
+    margin-right: 60px !important;
+    }
+    
+    .best-choice::before {
+        width: 120px;
+    }
+    
+    .best-choice h1 {
+        font-size: 25px !important;
+        padding: 0 12px;
+    }
+    
+    .best-choice::after {height: 201px;}
+    
+    .feedback::before {
+        display: none;
+    }
+    
+    .feedback, .feedback .col-md-5 pt-5 {
+        padding-top: 0 !important;
+    }
+    
+    .col-md-5.pt-5 {
+    }
+    
+    .feedback .feed-box a.btn {
+        font-size: 14px;
+    }
+    
+    .feedback .feed-yellow {
+        padding: 28px 20px;
+    }
+    
+    footer img {
+        max-width: 218%;
+        padding-bottom: 11px;
+    }
+    
+    footer ul li {padding-left: 20px;}
+    
+    footer ul.link.cal {
+        padding: 30px 40px 0 40px;
+    }
+    
+    footer ul.link.cal li i {
+        margin-left: 26px;
+    }
+    .reason {
+        padding-bottom: 0;
+    }
+    li.mar {
+        margin-left: 43px;
+    }
+    .row.padding {
+        padding: 0;
+    }
+    .feedback .feed-yellow::before {
+        width: 372px;
+        height: 300px;
+        left: 2px;
+    }
+    .feedback .feed-box i {
+        font-size: 32px;
+    }
+}
