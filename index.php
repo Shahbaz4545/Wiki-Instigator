@@ -13,10 +13,10 @@
 <section class="home-banner">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-6">
                 <img src="<?php echo $siteurl ?>./assets/images/home_banner.jpg" alt="Banner">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="banner-side">
                     <h2>Finest Wikipedia <br>
                         Services!</h2>
@@ -38,7 +38,7 @@
     <div class="cotnainer">
         <div class="row text-center">
             <div class="col-md-12">
-                <img src="<?php echo $siteurl ?>./assets/images/logos-bar.jpg" alt="LOGOS">
+                <img class="logo-slide" src="<?php echo $siteurl ?>./assets/images/logos-bar.jpg" alt="LOGOS">
             </div>
         </div>
     </div>
@@ -99,7 +99,7 @@
                     <img src="<?php echo $siteurl  ?>./assets/images/wiki-circle.png" alt="WikiCircle">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 key-fact-fig">
                 <div class="key-fact">
                     <h2>Key Facts & Figures</h2>
                     <ul>
@@ -201,9 +201,11 @@
 <section class="reason">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 best-choice">
-                <h1>Why Wiki Instigator <br>
-                is Your Best Choice?</h1>
+            <div class="col-md-6">
+                    <div class="best-choice">
+                    <h1>Why Wiki Instigator <br>
+                    is Your Best Choice?</h1>
+                </div>
             </div>
             <div class="col-md-3">
                 <span>03</span>
@@ -283,7 +285,7 @@
                 <!--  -->
                 
 
-                        <div class="col-md-5 pt-5">
+                        <div class="col-md-6 pt-5">
                             <h1>We Deliver What We <br>
                                     Claim Our Clients’ <br>
                                 Remarks</h1>
@@ -294,13 +296,16 @@
                                 <a href="javascript:" class="btn">Danny Morrison</a>
                             </div>
                         </div>
-                        <div class="col-md-7 feed-yellow">
+                        <div class="col-md-6">
+                            <div class="feed-yellow">
+                        
                                 <h1>Get in Touch with Wiki <br>
                                 Instigator Today</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <a href="javascript:" class="btn blue">
                                 Consult For <span>Free </span> 
-                                </a>      
+                                </a>   
+                            </div>   
                         </div> 
              
         </div>
