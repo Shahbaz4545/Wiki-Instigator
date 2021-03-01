@@ -78,10 +78,10 @@
         display: none;
     }
     
-    .home-banner .banner-side {padding: 0;padding-bottom: 30px;}
+    .home-banner .banner-side {padding: 0;padding-bottom: 30px;margin-top: 510px;}
     
     h2 {
-        font-size: 27px !important;
+        font-size: 21px !important;
         margin: 0;
     }
     
@@ -90,8 +90,8 @@
     }
     
     h1 {
-        font-size: 27px !important;
-        line-height: 34px !important;
+        font-size: 22px !important;
+        line-height: 23px !important;
     }
     
     h1 br {
@@ -101,7 +101,7 @@
     p {
         padding: 5px 0 5px 0  !important;
         font-size: 12px !important;
-        line-height: 18px !important;
+        /* line-height: 18px !important; */
     }
     
     .home-banner::before {
@@ -119,6 +119,7 @@
     }
     
     .home-banner .banner-side::before {
+        width: 111px;
         height: 436px;
         top: -50px;
         left: -20px;
@@ -130,7 +131,7 @@
     }
     
     .publish, .pub {
-        padding: 0;
+        padding:  10px 0;
     }
     
     .publish {
@@ -159,20 +160,22 @@
     
     .estab img {
         max-width: 100%;
+        right: 0px;
     }
     
     .estab {
-        padding: 20px 0 22px 0;
+        padding: 24px 0 280px 0;
     }
     
     .estab::before {
         width: 57px;
-        height: 80px;
-        left: 26px;
-        bottom: -25px;
+        height: 105px;
+        left: -14px;
+        bottom: -34px;
     }
     
-    section {
+    .wiki-service {
+    padding: 0;
     }
     
     .wiki-service img {
@@ -194,18 +197,21 @@
     }
     
     .key .wiki-cirle img {
-        max-width: 90%;
+        max-width: 70%;
+        left: 30px;
+        top: -37px;
     }
     
     .wiki-cirle::before {
-        width: 533px;
-        height: 122px;
-        bottom: -30px;
+        width: 340px;
+        height: 110px;
+        top: 94px;
     }
     
     .wiki-cirle::after {
-        width: 405px;
-        height: 340px;
+        width: 303px;
+        height: 257px;
+        top: -83px;
     }
     
     .key .key-fact ul li h3 {
@@ -229,7 +235,8 @@
     }
     
     section.genius-presence {
-        padding: 32px 0px;
+        padding: 27px 0;
+        margin: 0;
     }
     
     .genius-presence h1 br {
@@ -237,7 +244,7 @@
     }
     
     .genius-presence h1 {
-        font-size: 19px !important;
+        font-size: 16px !important;
     }
     
     .genius-presence {
@@ -245,6 +252,7 @@
     
     .genius-presence .chat {
     margin-right: 60px !important;
+    display: none;
     }
     
     .best-choice::before {
@@ -252,18 +260,18 @@
     }
     
     .best-choice h1 {
-        font-size: 25px !important;
+        font-size: 22px !important;
         padding: 0 12px;
     }
     
-    .best-choice::after {height: 201px;}
+    .best-choice::after {height: 160px;}
     
     .feedback::before {
         display: none;
     }
     
     .feedback, .feedback .col-md-5 pt-5 {
-        padding-top: 0 !important;
+        padding:  0 !important;
     }
     
     .col-md-5.pt-5 {
@@ -274,7 +282,7 @@
     }
     
     .feedback .feed-yellow {
-        padding: 28px 20px;
+        padding: 44px 20px;
     }
     
     footer img {
@@ -292,7 +300,7 @@
         margin-left: 26px;
     }
     .reason {
-        padding-bottom: 0;
+        padding: 20px 0;
     }
     li.mar {
         margin-left: 43px;
@@ -302,10 +310,52 @@
     }
     .feedback .feed-yellow::before {
         width: 372px;
-        height: 300px;
+        height: 241px;
         left: 2px;
     }
     .feedback .feed-box i {
         font-size: 32px;
     }
+    /**/
+    .home-banner .container-fluid::after {
+    display: none;
+}
+
+section.key {
+    padding: 30px 0;
+}
+
+.key .key-fact {
+    padding: 210px 0 0 70px;
+}
+
+.key .row::before {
+    display: none;
+}
+
+.premium .pre-box h3 {
+    font-size: 16px;
+}
+
+.genius-presence .container {
+    padding: 0 40px;
+    left: 0;
+}
+
+.pre-box.pre-box-after::after {
+    height: 236px;
+}
+
+.reason .best-choice {
+    padding-top: 60px;
+}
+
+.feedback .feed-box {
+    padding: 20px 20px;
+}
+
+.feedback .feed-yellow::after {
+    width: 142px;
+    top: 20px;
+}
 }
